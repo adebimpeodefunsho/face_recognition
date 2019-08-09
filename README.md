@@ -104,7 +104,7 @@ If you are having trouble with installation, you can also try out a
 #### Installing on an Nvidia Jetson Nano board
 
  * [Jetson Nano installation instructions](https://medium.com/@ageitgey/build-a-hardware-based-face-recognition-system-for-150-with-the-nvidia-jetson-nano-and-python-a25cb8c891fd)
-   * Please follow the instructions in the article carefully. There is current a bug in the CUDA libraries on the Jetson Nano that will cause this library to fail silently if you don't follow the instructions in the article to comment out a line in dlib and recompile it.
+   * Please follow the instructions in the article carefully. There is a current bug in the CUDA libraries on the Jetson Nano that will cause this library to fail silently if you don't follow the instructions in the article to comment out a line in dlib and recompile it.
 
 #### Installing on Raspberry Pi 2+
 
@@ -146,7 +146,7 @@ Next, you need a second folder with the files you want to identify:
 
 ![unknown](https://cloud.githubusercontent.com/assets/896692/23582465/81f422f8-00df-11e7-8b0d-75364f641f58.png)
 
-Then in you simply run the command `face_recognition`, passing in
+Then you will simply run the command `face_recognition`, passing in
 the folder of known people and the folder (or single image) with unknown
 people and it tells you who is in each image:
 
@@ -165,7 +165,7 @@ your folder of known people.
 
 #### `face_detection` command line tool
 
-The `face_detection` command lets you find the location (pixel coordinatates) 
+The `face_detection` command lets you find the location (pixel coordinates) 
 of any faces in an image.
 
 Just run the command `face_detection`, passing in a folder of images 
